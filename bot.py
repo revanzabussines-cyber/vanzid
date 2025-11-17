@@ -26,7 +26,7 @@ BOT_TOKEN = os.getenv("BOT_TOKEN")  # ambil dari environment variable
 if not BOT_TOKEN:
     raise ValueError("BOT_TOKEN tidak ditemukan. Set env BOT_TOKEN di Render dulu.")
 
-    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 TEMPLATE_UK = os.path.join(BASE_DIR, "template_uk.png")
 TEMPLATE_INDIA = os.path.join(BASE_DIR, "template_india.png")
@@ -246,3 +246,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
