@@ -42,7 +42,7 @@ TEXT_Y_INDIA = 675   # Posisi tepat di bawah foto
 TEXT_COLOR_INDIA = (0, 0, 0)
 
 # Font path
-FONT_PATH = os.path.join(BASE_DIR, "arialbd.ttf")
+FONT_PATH = os.path.join(BASE_DIR, "arial.ttf")
 
 
 # =====================================
@@ -246,4 +246,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
